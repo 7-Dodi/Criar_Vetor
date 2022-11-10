@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="supremo">
+        <div class="question">
+            <h2>Questão 1</h2>
+            <p>Crie um novo projeto usando o template static do Code Sandbox e
+                crie uma página que tenha 2 campos de texto e 1 botão com o
+                rótulo "Achar". O usuário deve digitar um conjunto de números
+                separados por vírgula na primeira caixa de texto e um "separador"
+                na segunda caixa e ao clicar no botão, deve ser mostrado em um
+                elemento na tela o maior e o menor número digitado.
+            </p>
+            <p>
+                Exemplo: Números "2, 4, 5, 10, 1" e separador "," 
+                deve informar os números 1 e 10 como maior e menor, 
+                respectivamente.
+            </p>
+            <p>
+                Para essa questão, crie um ouvinte de evento no referido botão 
+                que busca os valores digitados e os separa.
+            </p>
+        </div>
+        <main>
+           <div class="intro">
+            <div class="input">
+                <input id="num" type="text" placeholder="Informe os numeros">
+            </div>
+            <div class="input">
+                <input id="sep" type="text" placeholder="Informe o separador">
+            </div>
+            <div class="button">
+                <button id="button" type="submit">Achar</button>
+            </div>
+            <div id="result" class="resultado">
+    
+            </div>
+           </div>
+        </main>
+    </div>
+    <script src="cafeina.js"></script>
+</body>
+</html>
